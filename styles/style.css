@@ -1,0 +1,35 @@
+.home-page{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background.jpg);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.item{
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.item:hover{
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.3);
+    transform: scale(1.02);
+}
+
+.gallery-row img{
+    height: 200px;
+}
+
+.button{
+    margin: 30vh 0;
+}
+.button a{
+    background: transparent;
+    border: 1px solid crimson;
+    transition: 0.5s;
+}
+
+.button a:hover{
+    background-color: crimson;
+}
